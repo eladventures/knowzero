@@ -96,7 +96,7 @@
 	<div
 		class="container-y mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-14 px-5 text-gray-800"
 	>
-		<div class="card shadow-2xl card-bordered">
+		<div class="card shadow-2xl">
 			<figure>
 				<img src="../img/hippocrades-curie.png" alt="hippocrades-health-apps" />
 			</figure>
@@ -109,7 +109,7 @@
 			</div>
 		</div>
 
-		<div class="card shadow-2xl card-bordered">
+		<div class="card shadow-2xl">
 			<figure>
 				<img src="../img/hippocrades-fleming.png" alt="hippocrades-api-services" />
 			</figure>
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 
-		<div class="card shadow-2xl card-bordered">
+		<div class="card shadow-2xl">
 			<figure>
 				<img src="../img/hippocrades-nightingale.png" alt="hippocrades-blockchain" />
 			</figure>
@@ -179,7 +179,7 @@
 			</picture>
 		</div>
 		<div class="p-4 mt-4">
-			<h1 class="text-4xl text-center font-bold mb-6">Timeline</h1>
+			<h1 class="text-4xl text-center font-bold mb-6 text-gray-800">Timeline</h1>
 			<div class="container">
 				<div class="flex flex-col md:grid grid-cols-12 text-gray-50">
 					<div class="flex md:contents">
@@ -303,7 +303,7 @@
 					class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none border-2 border-l-transparent"
 				>
 					<div class="px-8 mb-4 mt-20">
-						<h3 class="pt-4 mb-2 text-5xl font-semibold">Cryptocrades</h3>
+						<h3 class="pt-4 mb-2 text-5xl font-semibold text-gray-700">Cryptocrades</h3>
 						<p class="mb-4 text-base text-gray-700">
 							You can support Hippocrades by collecting a Crypto Hippocrades NFT dubbed
 							'Cryptocrades'.
