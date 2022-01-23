@@ -5,7 +5,7 @@
     </svg>  -->
 
 		<div class="relative sm:w-1/4 w-11/12">
-			<img src="../img/hippocrades-logo.png" alt="hippocrades-logo" />
+			<img src="../img/hippocrades-font.png" alt="hippocrades-logo" />
 		</div>
 
 		<p class="font-">

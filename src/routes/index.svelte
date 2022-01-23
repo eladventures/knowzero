@@ -72,12 +72,12 @@
 	<!-- THIRD PANEL -->
 	<!-- 'Hero' component from taliwinduikit.com -->
 	<div id="infra">
-		<div class="container mx-auto flex flex-col items-center pt-12 pb-5 sm:py-15 mt-19">
+		<div class="container mx-auto flex flex-col items-center pt-20 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-5">
 				<h1
 					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
 				>
-					Tech Healthcare Infrastructure
+					Tech Healthcare <span class="text-sky-400">Infrastructure</span>
 				</h1>
 				<p
 					class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg"
@@ -172,9 +172,14 @@
 	<!-- FIFTH PANEL -->
 	<!-- Timeline component  https://codepen.io/sheikh_ishaan/pen/oNWpgoK-->
 
-	<div class="container-x mx-auto">
+	<div class="container-x mx-auto pt-10">
+		<div class="relative sm:w-1/2 w-11/12 mx-auto">
+			<picture>
+				<img src="../img/hippocrades-logo-black.png" alt="Welcome" />
+			</picture>
+		</div>
 		<div class="p-4 mt-4">
-			<h1 class="text-4xl text-center font-bold mb-6">Hippocrades Timeline</h1>
+			<h1 class="text-4xl text-center font-bold mb-6">Timeline</h1>
 			<div class="container">
 				<div class="flex flex-col md:grid grid-cols-12 text-gray-50">
 					<div class="flex md:contents">
@@ -280,7 +285,7 @@
 				<h1
 					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
 				>
-					Support this Mission!
+					Support this <span class="text-sky-400">Mission</span>!
 				</h1>
 			</div>
 		</div>
@@ -300,7 +305,7 @@
 					<div class="px-8 mb-4 mt-20">
 						<h3 class="pt-4 mb-2 text-5xl font-semibold">Cryptocrades</h3>
 						<p class="mb-4 text-base text-gray-700">
-							You can support Hippocrades by collecting a Crpto Hippocrades NFT dubbed
+							You can support Hippocrades by collecting a Crypto Hippocrades NFT dubbed
 							'Cryptocrades'.
 						</p>
 						<p class="mb-4 text-base text-gray-700">
