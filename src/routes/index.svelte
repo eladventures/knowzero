@@ -63,7 +63,10 @@
 			</div>
 			<div class="flex justify-center items-center mb-1 sm:mb-20">
 				<div class="relative sm:w-2/3 w-11/12">
-					<img src="../src/img/hippocrades-hie.png" alt="health-information-exchange-holy-grail" />
+					<img
+						src="hippocrades/src/img/hippocrades-hie.png"
+						alt="health-information-exchange-holy-grail"
+					/>
 				</div>
 			</div>
 		</div>
