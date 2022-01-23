@@ -29,7 +29,7 @@
 			<div class="relative sm:w-2/3 w-11/12">
 				<!-- svelte-ignore a11y-no-redundant-roles -->
 				<img
-					src="/hippocrades/static/img/hippocrades-health-for-all.png"
+					src="/img/hippocrades-health-for-all.png"
 					alt="hippocrades-people-together"
 					role="img"
 				/>
@@ -63,10 +63,7 @@
 			</div>
 			<div class="flex justify-center items-center mb-1 sm:mb-20">
 				<div class="relative sm:w-2/3 w-11/12">
-					<img
-						src="../static/img/hippocrades-hie.png"
-						alt="health-information-exchange-holy-grail"
-					/>
+					<img src="../img/hippocrades-hie.png" alt="health-information-exchange-holy-grail" />
 				</div>
 			</div>
 		</div>
