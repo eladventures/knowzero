@@ -98,7 +98,7 @@
 	>
 		<div class="card shadow-2xl card-bordered">
 			<figure>
-				<img src="../src/img/hippocrades-curie.png" alt="hippocrades-health-apps" />
+				<img src="../img/hippocrades-curie.png" alt="hippocrades-health-apps" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Curie</h2>
@@ -111,7 +111,7 @@
 
 		<div class="card shadow-2xl card-bordered">
 			<figure>
-				<img src="../src/img/hippocrades-fleming.png" alt="hippocrades-api-services" />
+				<img src="../img/hippocrades-fleming.png" alt="hippocrades-api-services" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Fleming</h2>
@@ -124,7 +124,7 @@
 
 		<div class="card shadow-2xl card-bordered">
 			<figure>
-				<img src="../src/img/hippocrades-nightingale.png" alt="hippocrades-blockchain" />
+				<img src="../img/hippocrades-nightingale.png" alt="hippocrades-blockchain" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Nightingale</h2>
@@ -142,7 +142,7 @@
 			onclick="window.location.href='https://hippocrades.com/hippocrades-cms';">Learn More</button
 		>
 
-		<a href="../src/img/hippocrades.pdf" target="_blank">
+		<a href="../img/hippocrades.pdf" target="_blank">
 			<button
 				class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 				>Read Whitepaper</button
@@ -291,7 +291,7 @@
 				<!-- Col -->
 				<div
 					class="w-full h-auto bg-transparent border-2 border-r-transparent hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
-					style="background-image: url('../src/img/hippocrades-crypto.png')"
+					style="background-image: url('../img/hippocrades-crypto.png')"
 				/>
 				<!-- Col -->
 				<div
