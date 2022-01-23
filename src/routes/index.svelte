@@ -29,7 +29,7 @@
 			<div class="relative sm:w-2/3 w-11/12">
 				<!-- svelte-ignore a11y-no-redundant-roles -->
 				<img
-					src="../src/img/hippocrades-health-for-all.png"
+					src="..hippocrades/src/img/hippocrades-health-for-all.png"
 					alt="hippocrades-people-together"
 					role="img"
 				/>
