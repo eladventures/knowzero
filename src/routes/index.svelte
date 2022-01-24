@@ -159,12 +159,14 @@
 			style="padding-bottom: 56.25%"
 		>
 			<!-- svelte-ignore a11y-missing-attribute -->
+
 			<iframe
-				src="https://www.youtube.com/embed/r9jwGansp1E"
+				src="https://www.youtube.com/embed/zvM3LIvq-6k"
+				title="YouTube video player"
 				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
 				class="absolute top-0 left-0 w-full h-full"
-				alt="hippocrades-health-apps"
 			/>
 		</div>
 	</div>
