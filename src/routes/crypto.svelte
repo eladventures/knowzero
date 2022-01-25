@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>Pokedex</title>
+	<title>Cryptocrades</title>
 </svelte:head>
 
 <div class="container-z mx-auto">

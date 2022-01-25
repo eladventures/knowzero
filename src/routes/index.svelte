@@ -1,6 +1,10 @@
 <script>
 </script>
 
+<svelte:head>
+	<title>Hippocrades</title>
+</svelte:head>
+
 <!-- FIRST PANEL -->
 <!-- 'Hero' component from taliwinduikit.com -->
 <body class="bg-white">
@@ -29,7 +33,7 @@
 			<div class="relative sm:w-2/3 w-11/12">
 				<!-- svelte-ignore a11y-no-redundant-roles -->
 				<img
-					src="/img/hippocrades-health-for-all.png"
+					src="/img/hippocrades-health-for-all.webp"
 					alt="hippocrades-people-together"
 					role="img"
 				/>
@@ -41,7 +45,7 @@
 	<!-- 'Hero' component from taliwinduikit.com -->
 	<div id="mission" class="w-full px-6">
 		<div
-			class="mt-8 relative rounded-lg bg-sky-400 container-x mx-auto flex flex-col items-center pt-12 sm:pt-15 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-5"
+			class="mt-8 relative rounded-3xl bg-sky-400 container-x mx-auto flex flex-col items-center pt-12 sm:pt-15 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-5"
 		>
 			<div class="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
 				<h1
@@ -63,7 +67,7 @@
 			</div>
 			<div class="flex justify-center items-center mb-1 sm:mb-20">
 				<div class="relative sm:w-2/3 w-11/12">
-					<img src="../img/hippocrades-hie.png" alt="health-information-exchange-holy-grail" />
+					<img src="../img/hippocrades-hie.webp" alt="health-information-exchange-holy-grail" />
 				</div>
 			</div>
 		</div>
@@ -98,7 +102,7 @@
 	>
 		<div class="card shadow-2xl">
 			<figure>
-				<img src="../img/hippocrades-curie.png" alt="hippocrades-health-apps" />
+				<img src="../img/hippocrades-curie.webp" alt="hippocrades-health-apps" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Curie</h2>
@@ -111,7 +115,7 @@
 
 		<div class="card shadow-2xl">
 			<figure>
-				<img src="../img/hippocrades-fleming.png" alt="hippocrades-api-services" />
+				<img src="../img/hippocrades-fleming.webp" alt="hippocrades-api-services" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Fleming</h2>
@@ -124,7 +128,7 @@
 
 		<div class="card shadow-2xl">
 			<figure>
-				<img src="../img/hippocrades-nightingale.png" alt="hippocrades-blockchain" />
+				<img src="../img/hippocrades-nightingale.webp" alt="hippocrades-blockchain" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title mx-auto">Nightingale</h2>
@@ -177,7 +181,7 @@
 	<div class="container-x mx-auto pt-10">
 		<div class="relative sm:w-1/2 w-11/12 mx-auto">
 			<picture>
-				<img src="../img/hippocrades-logo-black.png" alt="Welcome" />
+				<img src="../img/hippocrades-logo-black.webp" alt="Welcome" />
 			</picture>
 		</div>
 		<div class="p-4 mt-4">
@@ -298,7 +302,7 @@
 				<!-- Col -->
 				<div
 					class="w-full h-auto bg-transparent border-2 border-r-transparent hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
-					style="background-image: url('../img/hippocrades-crypto.png')"
+					style="background-image: url('../img/hippocrades-crypto.webp')"
 				/>
 				<!-- Col -->
 				<div
