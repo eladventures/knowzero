@@ -142,15 +142,23 @@
 
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
 		<button
-			class="hover:text-white hover:bg-sky-400 lg:text-xl hover:border-white border bg-gray-500 transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-700	focus:ring-white rounded text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"
-			onclick="window.location.href='https://hippocrades.com/hippocrades-cms';">Learn More</button
+			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			onclick="window.location.href='https://about.hippocrades.org/hippocrades-cms';">Learn More</button
 		>
 
 		<a href="../img/hippocrades.pdf" target="_blank">
 			<button
 				class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
-				>Read Whitepaper</button
 			>
+				Read Whitepaper
+			</button>
+		</a>
+		<a href="https://demo.hippocrades.org" target="_blank">
+			<button
+				class="hover:text-white hover:bg-sky-400 lg:text-xl hover:border-white ml-3 sm:ml-6 bg-gray-500 transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			>
+				Try Demo
+			</button>
 		</a>
 	</div>
 

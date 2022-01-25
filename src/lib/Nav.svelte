@@ -61,12 +61,24 @@
 						<a href="#nft">NFT</a>
 					</li>
 
-					<li>
+					<li
+						class="pr-3"
+					>
 						<a href="../img/hippocrades.pdf" target="_blank">
+							<button
+								class="bg-transparent hover:bg-white hover:text-sky-400 text-base text-gray-600 border border-gray-600 hover:border-sky-400 py-2 px-4 rounded"
+							>
+								Whitepaper
+							</button>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://demo.hippocrates.org" target="_blank">
 							<button
 								class="bg-gray-500 hover:bg-sky-400 hover:text-white text-base text-white  py-2 px-4 rounded"
 							>
-								Whitepaper
+								Try Demo
 							</button>
 						</a>
 					</li>
