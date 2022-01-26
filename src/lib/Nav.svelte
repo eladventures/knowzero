@@ -74,7 +74,7 @@
 					</li>
 
 					<li>
-						<a href="https://demo.hippocrates.org" target="_blank">
+						<a href="https://demo.hippocrades.org" target="_blank">
 							<button
 								class="bg-gray-500 hover:bg-sky-400 hover:text-white text-base text-white  py-2 px-4 rounded"
 							>
