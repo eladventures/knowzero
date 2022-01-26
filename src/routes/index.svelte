@@ -143,7 +143,8 @@
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
 		<button
 			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
-			onclick="window.location.href='https://about.hippocrades.org/hippocrades-cms';">Learn More</button
+			onclick="window.location.href='https://about.hippocrades.org/hippocrades-cms';"
+			>Learn More</button
 		>
 
 		<a href="../img/hippocrades.pdf" target="_blank">
@@ -173,7 +174,7 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 
 			<iframe
-				src="https://www.youtube.com/embed/zvM3LIvq-6k"
+				src="https://www.youtube.com/embed/1Zhoc7OBbxw"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
