@@ -324,7 +324,8 @@
 							'Cryptocrades'.
 						</p>
 						<p class="mb-4 text-base text-gray-700">
-							See collection <span onclick="window.location='/crypto'">here</span>
+							A collection of Cryptocrades NFTs will be published here soon.
+							<!-- See collection <span onclick="window.location='/crypto'">here</span> -->
 						</p>
 					</div>
 					<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
