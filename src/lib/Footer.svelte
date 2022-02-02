@@ -9,7 +9,7 @@
 		</div>
 
 		<p class="font-">
-			<br />Copyright © 2021 - All right reserved
+			<br />Copyright © 2021 - All rights reserved
 		</p>
 		<p>"Qualis est vir qui mundum non meliorat?"</p>
 	</div>
