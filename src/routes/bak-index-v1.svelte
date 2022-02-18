@@ -163,6 +163,27 @@
 		</a>
 	</div>
 
+	<!-- FOURTH PANEL -->
+	<!-- Embed Youtube source: https://codepen.io/mnaus/pen/MWjaxLj -->
+
+	<div class="flex flex-col items-center w-1/2 mx-auto">
+		<div
+			class="relative h-0 overflow-hidden max-w-full w-full border-8 border-sky-400 my-5"
+			style="padding-bottom: 56.25%"
+		>
+			<!-- svelte-ignore a11y-missing-attribute -->
+
+			<iframe
+				src="https://www.youtube.com/embed/1Zhoc7OBbxw"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+				class="absolute top-0 left-0 w-full h-full"
+			/>
+		</div>
+	</div>
+
 	<!-- FIFTH PANEL -->
 	<!-- Timeline component  https://codepen.io/sheikh_ishaan/pen/oNWpgoK-->
 
@@ -284,42 +305,71 @@
 			</div>
 		</div>
 
-		<div class="flex justify-center">
-			<div class="block p-6 rounded-lg shadow-lg bg-sky-600 max-w-sm">
-				<a
-					href="https://support.hippocrades.org"
-					class="mb-2 text-2xl font-bold text-white text-xl leading-tight font-medium mb-2"
-					target="_blank"
+		<div class="flex justify-center px-6 mb-12">
+			<!-- Row -->
+			<div class="w-full xl:w-3/4 lg:w-11/12 flex">
+				<!-- Col -->
+				<div
+					class="w-full h-auto bg-transparent border-2 border-r-transparent hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+					style="background-image: url('../img/hippocrades-crypto.webp')"
+				/>
+				<!-- Col -->
+				<div
+					class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none border-2 border-l-transparent"
 				>
-					I'd like to help, sign me up!
-				</a>
+					<div class="px-8 mb-4 mt-20">
+						<h3 class="pt-4 mb-2 text-5xl font-semibold text-gray-700">Cryptocrades</h3>
+						<p class="mb-4 text-base text-gray-700">
+							You can support Hippocrades by collecting a Crypto Hippocrades NFT dubbed
+							'Cryptocrades'.
+						</p>
+						<p class="mb-4 text-base text-gray-700">
+							A collection of Cryptocrades NFTs will be published here soon.
+							<!-- See collection <span onclick="window.location='/crypto'">here</span> -->
+						</p>
+					</div>
+					<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+						<div class="mb-4">
+							<label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+								Be the first to know of Cryptocrades release!
+							</label>
+							<input
+								class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+								id="email"
+								type="email"
+								placeholder="Enter Email Address..."
+							/>
+						</div>
+						<div class="mb-6 text-center">
+							<button
+								class="w-full px-4 py-2 font-bold text-white bg-sky-400 rounded-full hover:bg-sky-600 focus:outline-none focus:shadow-outline"
+								type="button"
+							>
+								Send Email
+							</button>
+						</div>
+						<hr class="mb-6 border-t" />
+
+						<!-- <div class="text-center">
+								<a
+									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+									href="./register.html"
+								>
+									Create an Account!
+								</a>
+							</div>
+							<div class="text-center">
+								<a
+									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+									href="./index.html"
+								>
+									Already have an account? Login!
+								</a>
+							</div> -->
+					</form>
+				</div>
 			</div>
 		</div>
-
-		<a
-			href="#"
-			class="m-10 mx-auto flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl"
-		>
-			<img
-				class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-72 md:rounded-none md:rounded-l-lg"
-				src="./img/hippocrades-crypto.png"
-				alt=""
-			/>
-			<div class="flex flex-col justify-between p-4 leading-normal">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-					Cryptocrades
-				</h5>
-				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					You can also support Hippocrades by collecting a Crypto Hippocrades NFT dubbed
-					'Cryptocrades'. <br /><br />A collection of Cryptocrades NFTs will be published soon.
-				</p>
-				<a
-					href="#"
-					class="text-white bg-sky-400 hover:bg-sky-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-					>Soon!</a
-				>
-			</div>
-		</a>
 	</div>
 </body>
 

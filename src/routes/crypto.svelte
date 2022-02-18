@@ -19,23 +19,25 @@
 	<title>Cryptocrades</title>
 </svelte:head>
 
-<div class="container-z mx-auto">
-	<h1 class="text-4xl text-center my-8 uppercase">Cryptocrades</h1>
-	<input
-		class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
-		bind:value={searchTerm}
-		placeholder="Search Pokemon"
-	/>
+<body class="bg-white">
+	<div class="container-z mx-auto">
+		<h1 class="text-4xl text-center my-8 text-gray-900">Cryptocrades</h1>
+		<input
+			class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
+			bind:value={searchTerm}
+			placeholder="Search Pokemon"
+		/>
 
-	<div class="py-4 grid gap-4 md:grid-cols-4 grid-cols-1">
-		{#each filteredPokemon as pokeman}
-			<PokemanCard {pokeman} />
-		{/each}
+		<div class="py-4 grid gap-4 md:grid-cols-4 grid-cols-1">
+			{#each filteredPokemon as pokeman}
+				<PokemanCard {pokeman} />
+			{/each}
+		</div>
 	</div>
-</div>
 
-<style>
-	.container-z {
-		width: 80%;
-	}
-</style>
+	<style>
+		.container-z {
+			width: 80%;
+		}
+	</style>
+</body>
