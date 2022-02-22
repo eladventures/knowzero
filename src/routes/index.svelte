@@ -311,12 +311,12 @@
 				</h5>
 				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 					You can also support Hippocrades by collecting a Crypto Hippocrades NFT dubbed
-					'Cryptocrades'. <br /><br />A collection of Cryptocrades NFTs will be published soon.
+					'Cryptocrades'. <br /><br />See sample collections of Cryptocrades NFTs.
 				</p>
 				<a
-					href="#"
+					href="https://hippocrades.org/cryptocrades"
 					class="text-white bg-sky-400 hover:bg-sky-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-					>Soon!</a
+					>Let me see!</a
 				>
 			</div>
 		</a>
