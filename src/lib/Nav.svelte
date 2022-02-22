@@ -12,7 +12,7 @@
 
 <!-- Nav Bar module from: https://tailwinduikit.com/components/marketing/page_section/hero -->
 
-<nav class="w-full">
+<nav class="w-full bg-white">
 	<div class="container mx-auto px-6 flex items-center justify-between">
 		<div class="flex items-center" aria-label="Home" role="img">
 			<!-- <img class="cursor-pointer w-8 sm:w-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg1.svg" alt="logo"/>      -->
@@ -61,9 +61,7 @@
 						<a href="#nft">NFT</a>
 					</li>
 
-					<li
-						class="pr-3"
-					>
+					<li class="pr-3">
 						<a href="../img/hippocrades.pdf" target="_blank">
 							<button
 								class="bg-transparent hover:bg-white hover:text-sky-400 text-base text-gray-600 border border-gray-600 hover:border-sky-400 py-2 px-4 rounded"
