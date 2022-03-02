@@ -1,9 +1,11 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Hippocrades</title>
 </svelte:head>
+
+<script>
+	import { LINKS_MAP } from '../utils';
+	const linksMap = LINKS_MAP;
+</script>
 
 <!-- FIRST PANEL -->
 <!-- 'Hero' component from taliwinduikit.com -->
@@ -65,11 +67,31 @@
 					their standards.
 				</p>
 			</div>
-			<div class="flex justify-center items-center mb-1 sm:mb-20">
-				<div class="relative sm:w-2/3 w-11/12">
-					<img src="../img/hippocrades-hie.webp" alt="health-information-exchange-holy-grail" />
+			<div class="flex justify-center items-center mb-10">
+				<div class="relative sm:w-3/3 w-11/12">
+					<img src="../img/hippocrades-hie-new.png" alt="health-information-exchange-holy-grail" />
 				</div>
 			</div>
+			<div class="flex flex-row flex-wrap mb-1 sm:mb-20">
+				<div class="flex-1">
+					<ul>
+						<li class="text-xl">Secure</li>
+						<li class="text-xl">Private</li>
+						<li class="text-xl">Auditable</li>
+						<li class="text-xl">Scalable</li>
+						<li class="text-xl">Interoperable</li>
+					</ul>
+				</div>
+				<div class="flex-1">
+					<ul>
+						<li class="text-xl">Controlled Shareability</li>
+						<li class="text-xl">System Agnostic</li>
+						<li class="text-xl">Permissionless</li>
+						<li class="text-xl">Decentralized</li>
+					</ul>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 
@@ -141,11 +163,12 @@
 	</div>
 
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
-		<button
+		<a
 			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
-			onclick="window.location.href='https://about.hippocrades.org/hippocrades-cms';"
-			>Learn More</button
-		>
+			href="{linksMap.docs}"
+			target="_blank">
+			Learn More
+		</a>
 
 		<a href="../img/hippocrades.pdf" target="_blank">
 			<button
@@ -154,7 +177,8 @@
 				Read Whitepaper
 			</button>
 		</a>
-		<a href="https://demo.hippocrades.org" target="_blank">
+
+		<a href="{linksMap.demo}" target="_blank">
 			<button
 				class="hover:text-white hover:bg-sky-400 lg:text-xl hover:border-white ml-3 sm:ml-6 bg-gray-500 transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			>
