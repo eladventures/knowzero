@@ -1,0 +1,35 @@
+name: Hippocrades.org:Production
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Hippocrades.org to production
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14]
+    steps: 
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install Yarn
+        run: npm install yarn@latest -g
+      - name: Install Firebase Tools
+        run: npm install firebase-tools -g
+      - name: Install dependencies
+        run: yarn
+      - name: Run build
+        run: yarn build
+      - name: Run deploy
+        env: 
+          FIREBASE_TOKEN: 1//0e3pp4Lg3TpjXCgYIARAAGA4SNwF-L9Ir2IkEx3uPT5mZcPQAAWACd_IBnPV_kGzju19uWmb72bO8i1b9n6M8G7JMzT_YYUNRU18
+        run: |
+          firebase use hippocrades-blockchain
+          firebase target:clear hosting prod
+          firebase target:apply hosting prod hippocrades-web-main-org
+          firebase deploy --only hosting:prod -P hippocrades-blockchain
