@@ -1,4 +1,5 @@
 <script>
+	import { LINKS_MAP } from '../utils';
 	// 'Hero' component - Function to toggle header menu in mobile view.
 	function toggleMenu(flag) {
 		let value = document.getElementById('menu');
@@ -8,6 +9,7 @@
 			value.classList.add('hidden');
 		}
 	}
+	const linksMap = LINKS_MAP;
 </script>
 
 <!-- Nav Bar module from: https://tailwinduikit.com/components/marketing/page_section/hero -->
@@ -72,7 +74,7 @@
 					</li>
 
 					<li>
-						<a href="https://demo.hippocrades.org" target="_blank">
+						<a href="{linksMap.demo}" target="_blank">
 							<button
 								class="bg-gray-500 hover:bg-sky-400 hover:text-white text-base text-white  py-2 px-4 rounded"
 							>
