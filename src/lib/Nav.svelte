@@ -18,7 +18,7 @@
 	<div class="container mx-auto px-6 flex items-center justify-between">
 		<div class="flex items-center" aria-label="Home" role="img">
 			<!-- <img class="cursor-pointer w-8 sm:w-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg1.svg" alt="logo"/>      -->
-			<p class="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">
+			<p class="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800 hippocrades-logo">
 				H I P P O C R A D E S
 			</p>
 		</div>
