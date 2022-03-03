@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'andromeda Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('andromeda Medium'), url('../static/fonts/andromeda.woff') format('woff');
+}
+@layer base {
+  .hippocrades-logo {
+    font-family: 'andromeda Medium', system-ui, sans-serif;
+  }
+}
