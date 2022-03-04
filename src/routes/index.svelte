@@ -155,14 +155,14 @@
 
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
 		<a
-			class="hover:bg-white mr-7 hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			class="hover:bg-white mr-7 hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			href="{linksMap.apiDocs}"
 			target="_blank">
 			Read Documentation
 		</a>
 
 		<a
-			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			href="{linksMap.docs}"
 			target="_blank">
 			Learn More
