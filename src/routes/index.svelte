@@ -67,31 +67,11 @@
 					their standards.
 				</p>
 			</div>
-			<div class="flex justify-center items-center mb-10">
-				<div class="relative sm:w-3/3 w-11/12">
-					<img src="../img/hippocrades-hie-new.png" alt="health-information-exchange-holy-grail" />
+			<div class="flex justify-center items-center mb-1 sm:mb-20">
+				<div class="relative sm:w-2/3 w-11/12">
+					<img src="../img/hippocrades-hie.webp" alt="health-information-exchange-holy-grail" />
 				</div>
 			</div>
-			<div class="flex flex-row flex-wrap mb-1 sm:mb-20">
-				<div class="flex-1">
-					<ul>
-						<li class="text-xl">Secure</li>
-						<li class="text-xl">Private</li>
-						<li class="text-xl">Auditable</li>
-						<li class="text-xl">Scalable</li>
-						<li class="text-xl">Interoperable</li>
-					</ul>
-				</div>
-				<div class="flex-1">
-					<ul>
-						<li class="text-xl">Controlled Shareability</li>
-						<li class="text-xl">System Agnostic</li>
-						<li class="text-xl">Permissionless</li>
-						<li class="text-xl">Decentralized</li>
-					</ul>
-				</div>
-			</div>
-			
 		</div>
 	</div>
 
@@ -122,7 +102,7 @@
 	<div
 		class="container-y mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-14 px-5 text-gray-800"
 	>
-		<div class="card shadow-2xl">
+		<div class="card shadow-md">
 			<figure>
 				<img src="../img/hippocrades-curie.webp" alt="hippocrades-health-apps" />
 			</figure>
@@ -135,7 +115,7 @@
 			</div>
 		</div>
 
-		<div class="card shadow-2xl">
+		<div class="card shadow-md">
 			<figure>
 				<img src="../img/hippocrades-fleming.webp" alt="hippocrades-api-services" />
 			</figure>
@@ -148,7 +128,7 @@
 			</div>
 		</div>
 
-		<div class="card shadow-2xl">
+		<div class="card shadow-md">
 			<figure>
 				<img src="../img/hippocrades-nightingale.webp" alt="hippocrades-blockchain" />
 			</figure>
@@ -162,7 +142,25 @@
 		</div>
 	</div>
 
+	<div class="col-span-3 text-center mt-28">
+		<div>
+			<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
+				Hippocrades <span class="text-sky-400">Blockchain</span> <br> Architecture
+			</h1>
+			<center>
+				<img width="900" src="../img/hippocrades-hie-new.png" alt="health-information-exchange-holy-grail" />
+			</center>
+		</div>
+	</div>
+
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
+		<a
+			class="hover:bg-white mr-7 hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			href="{linksMap.apiDocs}"
+			target="_blank">
+			Read Documentation
+		</a>
+
 		<a
 			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			href="{linksMap.docs}"
