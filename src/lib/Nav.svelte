@@ -1,89 +1,77 @@
 <script>
-	import { LINKS_MAP } from '../utils';
-	// 'Hero' component - Function to toggle header menu in mobile view.
-	function toggleMenu(flag) {
-		let value = document.getElementById('menu');
-		if (flag) {
-			value.classList.remove('hidden');
-		} else {
-			value.classList.add('hidden');
-		}
-	}
-	const linksMap = LINKS_MAP;
+  import defaultMenus from '../constants/menus';
+  const appName = "HIPPOCRADES";
+  const menus = defaultMenus;
 </script>
 
-<!-- Nav Bar module from: https://tailwinduikit.com/components/marketing/page_section/hero -->
+<div class="navbar hidden md:inline">
+  <div class="container mx-auto px-6 flex items-center justify-between">
+    <div class="flex-1">
+      <a
+        href="/"
+        class="btn btn-ghost normal-case text-md md:text-xl"
+        ><span class="hippocrades-logo">{appName}</span><span style="font-size: 14px;" class="font-normal">.ORG</span></a
+      >
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal p-0">
+        {#each menus as menu}
+          <li>
+            <a
+              href="{menu.link}"
+              class="{menu.extraClasses} hover:text-primary btn md:btn-md text-gray-600 normal-case"
+            >
+              {menu.title}
+            </a>
+          </li>
+        {/each}
+      </ul>
+    </div>
+  </div>
+</div>
 
-<nav class="w-full bg-white">
-	<div class="container mx-auto px-6 flex items-center justify-between">
-		<div class="flex items-center" aria-label="Home" role="img">
-			<!-- <img class="cursor-pointer w-8 sm:w-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg1.svg" alt="logo"/>      -->
-			<p class="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800 hippocrades-logo">
-				H I P P O C R A D E S
-			</p>
-		</div>
-		<div>
-			<button
-				onclick="toggleMenu(true)"
-				class="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
-			>
-				<img
-					class="h-8 w-8"
-					src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg4.svg"
-					alt="show"
-				/>
-			</button>
-			<div id="menu" class="md:block lg:block hidden">
-				<button
-					onclick="toggleMenu(false)"
-					class="block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 fixed focus:outline-none focus:ring-2 focus:ring-gray-500 bg-white md:bg-transparent z-30 top-0 mt-3"
-				>
-					<img
-						class="h-8 w-8"
-						src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg5.svg"
-						alt="hide"
-					/>
-				</button>
-				<ul
-					class="flex text-3xl md:text-base items-center py-8 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent  z-20"
-				>
-					<li
-						class="text-gray-600 text-lg hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"
-					>
-						<a href="#mission">Mission</a>
-					</li>
-					<li
-						class="text-gray-600 text-lg hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"
-					>
-						<a href="#infra">Health Infrastructure</a>
-					</li>
-					<li
-						class="text-gray-600 text-lg hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0 pr-20"
-					>
-						<a href="#nft">NFT</a>
-					</li>
-
-					<li class="pr-3">
-						<a href="../img/hippocrades.pdf" target="_blank">
-							<button
-								class="bg-transparent hover:bg-white hover:text-sky-400 text-base text-gray-600 border border-gray-600 hover:border-sky-400 py-2 px-4 rounded"
-							>
-								Whitepaper
-							</button>
-						</a>
-					</li>
-
-					<li>
-						<a href="{linksMap.demo}" target="_blank">
-							<button
-								class="bg-gray-500 hover:bg-sky-400 hover:text-white text-base text-white  py-2 px-4 rounded"
-							>
-								Try Demo
-							</button>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</nav>
+<div class="navbar visible md:hidden lg:hidden">
+  <div class="container mx-auto px-6 flex items-center justify-between">
+    <div class="flex-1">
+      <a
+        href="/"
+        class="btn btn-ghost normal-case text-md lg:text-xl text-primary hippocrades-logo"
+        >{appName}</a
+      >
+    </div>
+    <div class="flex-none">
+      <div class="dropdown dropdown-end">
+        <span tabindex="0" class="btn btn-primary btn-outline btn-square">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block w-5 h-5 stroke-current"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            /></svg
+          >
+        </span>
+        <ul
+          tabindex="0"
+          class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-60"
+        >
+          {#each menus as menu}
+            <li>
+              <a
+                href="{menu.link}"
+                target="_blank"
+                class="{menu.extraClasses} hover:text-primary btn md:btn-md font-bold normal-case mb-2"
+              >
+                {menu.title}
+              </a>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
