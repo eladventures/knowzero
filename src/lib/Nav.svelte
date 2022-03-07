@@ -19,7 +19,7 @@
           <li>
             <a
               href="{menu.link}"
-              class="{menu.extraClasses} hover:text-primary btn md:btn-md text-gray-600 normal-case"
+              class="btn md:btn-md normal-case {menu.extraClasses}"
             >
               {menu.title}
             </a>
@@ -64,7 +64,7 @@
               <a
                 href="{menu.link}"
                 target="_blank"
-                class="{menu.extraClasses} hover:text-primary btn md:btn-md font-bold normal-case mb-2"
+                class="btn md:btn-md normal-case mb-2 {menu.extraClasses}"
               >
                 {menu.title}
               </a>
