@@ -318,8 +318,7 @@
 			</div>
 		</div>
 
-		<a
-			href="#"
+		<div
 			class="m-10 mx-auto flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl"
 		>
 			<img
@@ -336,12 +335,12 @@
 					'Cryptocrades'. <br /><br />See sample collections of Cryptocrades NFTs.
 				</p>
 				<a
-					href="https://hippocrades.org/cryptocrades"
+					href="/cryptocrades"
 					class="text-white bg-sky-400 hover:bg-sky-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>Let me see!</a
 				>
 			</div>
-		</a>
+		</div>
 	</div>
 </body>
 
