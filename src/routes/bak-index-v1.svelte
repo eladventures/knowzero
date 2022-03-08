@@ -147,7 +147,7 @@
 			>Learn More</button
 		>
 
-		<a href="../img/hippocrades.pdf" target="_blank">
+		<a href="../hippocrades.pdf" target="_blank">
 			<button
 				class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			>
