@@ -16,12 +16,12 @@ export default [
   },
   {
     title: 'Whitepaper',
-    link: 'https://pharmacy.hippocrades.com',
+    link: '../hippocrades.pdf',
     extraClasses: 'btn-outline btn-primary lg:mr-2 hover:text-primary'
   },
   {
     title: 'Demo',
-    link: 'https://hippocrades.org',
+    link: 'https://demo.hippocrades.org',
     extraClasses: 'text-white btn-primary hover:text-white hover:bg-gray-600'
   },
 ];
