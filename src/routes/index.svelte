@@ -14,18 +14,16 @@
 		<div class="container mx-auto flex flex-col items-center py-12 sm:py-12">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-5">
 				<h1
-					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
+					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
 				>
-					Secure Healthcare Data
-					<span class="text-sky-400">Access</span>
-					to All.
+					Healthcare <span class="text-sky-400">Interoperability</span>, Finally!
 				</h1>
 				<p
-					class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg"
+					class="py-6 text-center lg:px-32 text-base md:text-xl"
 				>
-					Hippocrades' Mission: Build a decentralized healthcare tech infrastructure that is
-					compliant, scalable, and auditable. Sensitive health data becomes shareable while keeping
-					them private and secure.
+					Build your own decentralized healthcare tech infrastructure that is compliant, 
+					scalable, and auditable. With a decentralized health information exchange (HIE), 
+					sensitive health data becomes shareable while keeping them private and secure.
 				</p>
 			</div>
 			<div class="flex justify-center items-center pb-5">
@@ -51,20 +49,20 @@
 		>
 			<div class="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
 				<h1
-					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold text-white leading-tight"
+					class="text-2xl lg:text-4xl xl:text-5xl font-bold text-center text-white"
 				>
-					What Hippocrades is trying to solve?
+					What Hippocrades has solved?
 				</h1>
 				<p
-					class="mt-5 sm:mt-10 lg:w-10/12 text-white font-normal text-center text-sm sm:text-lg mx-auto"
+					class="py-6 text-center lg:px-32 text-base md:text-xl text-white"
 				>
-					Data breaches affected 26.4 million records in US alone (2020). Lost or stolen personal
-					health data may cost the US healthcare industry up to US$7 billion annually.
-					<br /><br />The challenge is how to make sensitive personal health data shareable and
-					interoperable while keeping health data private, secure, compliant and auditable in a
-					decentralized structure.
-					<br /><br />Simply, it’s the quest of achieving all these attributes without compromising
-					their standards.
+					Data breaches affected 26.4 million records in US alone (2020). Lost or stolen personal health data may cost the US healthcare industry up to US$7 billion annually.
+					<br /><br />
+					The challenge is how to make sensitive personal health data shareable and interoperable while keeping health data private, secure, compliant and auditable in a decentralized structure. Simply, it’s the quest of achieving all these attributes without compromising their standards.
+					<br /><br />
+					Hippocrades has finally resolved this and created the needed health tech infrastructure for your own deployment and management. 
+					<br /><br />
+					<i>*Ideal for health organizations, local or national government healthcare setup</i>
 				</p>
 			</div>
 			<div class="flex justify-center items-center mb-1 sm:mb-20">
@@ -81,12 +79,12 @@
 		<div class="container mx-auto flex flex-col items-center pt-20 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-5">
 				<h1
-					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
+					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
 				>
 					Tech Healthcare <span class="text-sky-400">Infrastructure</span>
 				</h1>
 				<p
-					class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg"
+					class="py-6 text-center lg:px-32 text-base md:text-xl"
 				>
 					To reach the elusive holy grail of healthcare data, it requires an infrastructure of (1)
 					health applications, (2) a comprehensive set of secured health API services, and
@@ -144,9 +142,11 @@
 
 	<div class="col-span-3 text-center mt-28">
 		<div>
-			<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
+			<h1 class="text-2xl lg:text-4xl xl:text-5xl font-bold">
 				Hippocrades <span class="text-sky-400">Blockchain</span> <br> Architecture
 			</h1>
+			<br>
+			<br>
 			<center>
 				<img width="900" src="../img/hippocrades-hie-new.png" alt="health-information-exchange-holy-grail" />
 			</center>
@@ -156,31 +156,30 @@
 	<div class="flex justify-center items-center mb-10 sm:mb-10 pt-10">
 		<a
 			class="hover:bg-white mr-7 hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
-			href="{linksMap.apiDocs}"
-			target="_blank">
-			Read Documentation
-		</a>
-
-		<a
-			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			href="{linksMap.docs}"
 			target="_blank">
 			Learn More
 		</a>
 
-		<a href="../hippocrades.pdf" target="_blank">
-			<button
-				class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
-			>
-				Read Whitepaper
-			</button>
+		<a
+			class="hover:bg-white mr-7 hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			href="{linksMap.apiDocs}"
+			target="_blank">
+			Fleming API Doc
 		</a>
 
-		<a href="{linksMap.demo}" target="_blank">
+		<a
+			class="hover:bg-white hover:text-sky-400 lg:text-xl hover:border-sky-400 border bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-400	focus:ring-white rounded border-gray-600 text-gray-600 px-4 sm:px-8 py-1 sm:py-3 text-sm"
+			href="{linksMap.demo}"
+			target="_blank">
+			Try Apps Demo
+		</a>
+
+		<a href="{linksMap.deploymentsDemo}" target="_blank">
 			<button
 				class="hover:text-white hover:bg-sky-400 lg:text-xl hover:border-white ml-3 sm:ml-6 bg-gray-500 transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-sky-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-gray-600 text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"
 			>
-				Try Demo
+				Deployment Demo
 			</button>
 		</a>
 	</div>
@@ -188,13 +187,13 @@
 	<!-- FIFTH PANEL -->
 	<!-- Timeline component  https://codepen.io/sheikh_ishaan/pen/oNWpgoK-->
 
-	<div class="container-x mx-auto pt-10">
+	<div class="container-x mx-auto py-10">
 		<div class="relative sm:w-1/2 w-11/12 mx-auto">
 			<picture>
 				<img src="../img/hippocrades-logo-black.webp" alt="Welcome" />
 			</picture>
 		</div>
-		<div class="p-4 mt-4">
+		<!-- <div class="p-4 mt-4">
 			<h1 class="text-4xl text-center font-bold mb-6 text-gray-800">Timeline</h1>
 			<div class="container">
 				<div class="flex flex-col md:grid grid-cols-12 text-gray-50">
@@ -288,7 +287,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<!-- SIXTH PANEL -->
@@ -299,7 +298,7 @@
 		<div class="container mx-auto flex flex-col items-center pt-12 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col sm:mb-5">
 				<h1
-					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
+					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
 				>
 					Support this <span class="text-sky-400">Mission</span>!
 				</h1>
