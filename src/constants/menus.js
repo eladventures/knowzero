@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Misson',
+    title: 'Mission',
     link: '#mission',
     extraClasses: 'btn-ghost text-gray-600 lg:mr-2 hover:text-primary',
   },
