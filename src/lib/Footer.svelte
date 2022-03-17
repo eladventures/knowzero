@@ -1,6 +1,6 @@
 <footer class="footer footer-center  text-primary-content bg-sky-700 border-t p-5">
   <div>
-    <img width="300" src="/img/hippocrades-logo.png" alt="Hippocrades Logo">
+    <img width="260" src="/img/hippocrades-logo.png" alt="Hippocrades Logo">
     <p class="font-bold">
       Decentralized Healthcare Apps
     </p> 
