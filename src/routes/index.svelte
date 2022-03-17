@@ -14,7 +14,7 @@
 		<div class="container mx-auto flex flex-col items-center py-12 sm:py-12">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-5">
 				<h1
-					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
+				class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
 				>
 					Healthcare <span class="text-sky-400">Interoperability</span>, Finally!
 				</h1>
@@ -49,7 +49,7 @@
 		>
 			<div class="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
 				<h1
-					class="text-2xl lg:text-4xl xl:text-5xl font-bold text-center text-white"
+					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white"
 				>
 					What Hippocrades has solved?
 				</h1>
@@ -79,7 +79,7 @@
 		<div class="container mx-auto flex flex-col items-center pt-20 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-5">
 				<h1
-					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
+					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold"
 				>
 					Tech Healthcare <span class="text-sky-400">Infrastructure</span>
 				</h1>
@@ -142,7 +142,7 @@
 
 	<div class="col-span-3 text-center mt-28">
 		<div>
-			<h1 class="text-2xl lg:text-4xl xl:text-5xl font-bold">
+			<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold">
 				Hippocrades <span class="text-sky-400">Blockchain</span> <br> Architecture
 			</h1>
 			<br>
@@ -298,7 +298,7 @@
 		<div class="container mx-auto flex flex-col items-center pt-12 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col sm:mb-5">
 				<h1
-					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
+					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold"
 				>
 					Support this <span class="text-sky-400">Mission</span>!
 				</h1>

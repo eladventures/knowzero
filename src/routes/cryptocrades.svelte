@@ -14,7 +14,7 @@
 		<div class="container mx-auto flex flex-col items-center pt-12 pb-5 sm:py-15 mt-19">
 			<div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col sm:mb-5">
 				<h1
-					class="text-2xl lg:text-4xl xl:text-5xl font-bold"
+				class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10"
 				>
 					<span class="text-sky-400">Cryptocrades</span> NFT
 				</h1>
