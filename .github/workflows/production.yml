@@ -31,5 +31,5 @@ jobs:
         run: |
           firebase use hippocrades-blockchain
           firebase target:clear hosting prod
-          firebase target:apply hosting prod hippocrades-web-main-org
+          firebase target:apply hosting prod know-zero-web-main
           firebase deploy --only hosting:prod -P hippocrades-blockchain
